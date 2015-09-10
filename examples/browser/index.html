@@ -10,16 +10,16 @@
 	<div id="get"></div>
     <div data-clickcash="9324"></div>
     <div data-clickcash="8929" data-clickcash-args="&pf_vchliveroomnumber=5"></div>
-    <div data-clickcash="8189"></div>     
+    <div data-clickcash="8189"></div>
 	<h3>Timeout</h3>
 	<div id="timeout"></div>
-	<script id="clickcash-promo-api" type="text/javascript" src="../dist/clickcash-promo-api.js?pccact=SYSADMIN001&pccSVC=PPES"></script>
+	<script id="clickcash-promo-api" type="text/javascript" src="../../dist/clickcash-promo-api.js?pccact=SYSADMIN001&pccSVC=PPES"></script>
 	<script>
         /*
 		this.omdb.search({
 			query: 'Terminator',
 			year: 1984
-		}, function handleResponse(err, data) { 
+		}, function handleResponse(err, data) {
 			var el = document.getElementById('search');
 			if (err) {
 				el.innerHTML = err;
@@ -27,10 +27,10 @@
 				el.innerHTML = JSON.stringify(data);
 			}
 		});
-       
+
 		Clickcash.promo.get({
 		    id: 'tt0276751'
-		}, function handleResponse(err, data) { 
+		}, function handleResponse(err, data) {
 		    var el = document.getElementById('get');
 		    if (err) {
 		        el.innerHTML = err;
@@ -44,7 +44,7 @@
 		Clickcash.promo.get({
 			id: 'tt0276751',
 			timeout: 10
-		}, function handleResponse(err, data) { 
+		}, function handleResponse(err, data) {
 			var el = document.getElementById('timeout');
 			if (err) {
 				if (err.type === 'timeout') {
