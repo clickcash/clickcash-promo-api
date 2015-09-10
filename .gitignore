@@ -10,7 +10,7 @@ lib-cov
 *.njsproj
 .ntvs_analysis.dat
 node_modules
-dist
+dist/**
 coverage
 bin/**
 obj/**
