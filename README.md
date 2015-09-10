@@ -1,6 +1,6 @@
 ﻿# clickash-promo-api
 
-[![NPM version](https://badge.fury.io/js/clickcash-promo-api.svg)
+![NPM version](https://badge.fury.io/js/clickcash-promo-api.svg)
 
 
 ## How to use
