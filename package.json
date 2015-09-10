@@ -23,7 +23,7 @@
   },
   "aliasify": {
         "aliases": {
-            "json-http": "./client/json-http.js"
+            "json-http": "./lib/browser/client/json-http.js"
         }
     }, 
   "repository": {

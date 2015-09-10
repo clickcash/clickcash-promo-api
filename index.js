@@ -1,8 +1,8 @@
 ﻿var Clickcash = {};
 Clickcash.promo = {};
-Clickcash.promo.get = module.exports.get = require('./src/common/get');
+Clickcash.promo.get = module.exports.get = require('./lib/common/get');
 if (typeof (window) !== 'undefined') {
-    module.exports.pageBinder = require('./src/browser/pageBinder')();
+    module.exports.pageBinder = require('./lib/browser/pageBinder')();
 } else {
     Clickcash.promo.get({
         ids: '1,2,3'

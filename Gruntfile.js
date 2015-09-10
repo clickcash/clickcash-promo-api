@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       options: {
         jshintrc: true
       },
-      beforeconcat: ['src/**/*.js']
+      beforeconcat: ['lib/**/*.js']
     }
   });
 
