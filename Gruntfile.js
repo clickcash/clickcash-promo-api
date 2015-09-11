@@ -19,11 +19,13 @@ module.exports = function(grunt) {
     uglify: {
       options: {
         banner: '/* <%= pkg.name %> <%= pkg.version %> */\n'
-      },
-      build: {
-        src: 'dist/clickcash-promo-api.js',
-        dest: 'dist/<%= pkg.name %>.min.js'
-      }
+            },
+      my_target : {
+                files: {
+                    'dist/<%= pkg.name %>.min.js' : ['dist/clickcash-promo-api.js'],
+                    '<%= pkg.name %>.min.js' : ['dist/clickcash-promo-api.js'],
+                }
+            }
     },
     jshint: {
       options: {

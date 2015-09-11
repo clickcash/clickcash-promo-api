@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "json-http": "^1.0.1",
+    "querystring": "^0.2.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
@@ -22,10 +23,10 @@
     ]
   },
   "aliasify": {
-        "aliases": {
-            "json-http": "./lib/browser/client/json-http.js"
-        }
-    }, 
+    "aliases": {
+      "json-http": "./lib/browser/client/json-http.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/clickcash/clickcash-promo-api.git"
