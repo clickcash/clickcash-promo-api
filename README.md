@@ -18,7 +18,7 @@ Be sure to replace [YOUR_ACCOUNT_CODE_HERE] with your Clickcash account code. To
 
 #### That's It!
 
-Once the script has been added to your web page(s), full page responsive ads will be displayed to users with your account code.
+Once the script has been added to your web page(s), full page responsive ads will be displayed to users and credit will be applied to your account code when applicable.
 
 ### Advanced options
 
