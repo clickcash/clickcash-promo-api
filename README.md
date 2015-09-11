@@ -14,7 +14,7 @@ Download the file `clickcash-promo-api.min.js` found at the root of this reposit
 </body>
 ```
 
-Be sure to replace [YOUR_ACCOUNT_CODE_HERE] with your Clickcash account code. To create one visit www.clickcash.com.
+Be sure to replace [YOUR_ACCOUNT_CODE_HERE] with your Clickcash account code. To create a Clickcash affiliate account visit www.clickcash.com.
 
 #### That's It!
 
