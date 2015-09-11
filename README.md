@@ -7,7 +7,7 @@
 
 ### For the web
 
-Download the file 'clickcash-promo-api.min.js' found at the root of this repository and call it right before your closing 'BODY' tag.
+Download the file `clickcash-promo-api.min.js` found at the root of this repository and call it right before your closing `</body>` tag.
 
 ```html
 	<script src="/clickcash-promo-api.min.js?pccact=[YOUR_ACCOUNT_CODE_HERE]"></script>
@@ -16,28 +16,29 @@ Download the file 'clickcash-promo-api.min.js' found at the root of this reposit
 
 Be sure to replace [YOUR_ACCOUNT_CODE_HERE] with your Clickcash account code. To create one visit www.clickcash.com.
 
-Once the script has been added to your web page(s), full page responsive ads will be displayed to users with your account code.
+#### That's It!
 
-To disable this functionality, pass pMode=advanced to the script and utilize the following advanced functionality.
+Once the script has been added to your web page(s), full page responsive ads will be displayed to users with your account code.
 
 ### Advanced options
 
-#### Retrieve Specific By ID
+To disable the automatic script functionality and enable advanced options, pass pMode=advanced to the script.
+
+#### Retrieve specifiy promo By ID
 ```html
 <div data-clickcash="id=82193"></div>
 ```
-
-#### Retrieve random by tag
+#### Retrieve random promo by tag
 ```html
 <div data-clickcash="tag=blonde"></div>
 ```
 
-#### Retrieve random by multiple tags
+#### Retrieve random promo by multiple tags
 ```html
 <div data-clickcash="tag=blonde&tag=dynamic"></div>
 ```
 
-#### Retrieve random by tag with dimensions in mind
+#### Retrieve random promo by tag with specific dimensions
 ```html
 <div data-clickcash="tag=blonde&tag=160x600"></div>
 ```
