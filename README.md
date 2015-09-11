@@ -22,7 +22,7 @@ Once the script has been added to your web page(s), full page responsive ads wil
 
 ### Advanced options
 
-To disable the automatic script functionality and enable advanced options, pass pMode=advanced to the script.
+To disable the automatic script functionality and enable advanced options, pass pmode=advanced to the script.
 
 #### Retrieve specifiy promo By ID
 ```html
