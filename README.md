@@ -35,12 +35,12 @@ To disable the automatic script functionality and enable advanced options, pass 
 
 #### Retrieve random promo by multiple tags
 ```html
-<div data-clickcash="tag=blonde&tag=dynamic"></div>
+<div data-clickcash="tag=blonde&amp;tag=dynamic"></div>
 ```
 
 #### Retrieve random promo by tag with specific dimensions
 ```html
-<div data-clickcash="tag=blonde&tag=160x600"></div>
+<div data-clickcash="tag=blonde&amp;tag=160x600"></div>
 ```
 
 ### Standalone Node JS
