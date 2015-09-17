@@ -1,11 +1,11 @@
-﻿var Clickcash = {};
-Clickcash.promo = {};
-Clickcash.promo.get = module.exports.get = require('./lib/common/get');
+﻿module.exports.get = require('./lib/common/get');
 if (typeof (window) !== 'undefined') {
-    module.exports.pageBinder = require('./lib/browser/pageBinder')();
+   module.exports.render = require('./lib/browser/render');
+   module.exports.render();
 } else {
+    /*
     Clickcash.promo.get({
-        ids: '1,2,3'
+        tags: ['amateur','160x600']
     }, function (err, data) {
         if (err) {
             console.log(err);
@@ -13,14 +13,5 @@ if (typeof (window) !== 'undefined') {
             console.log(data);
         }        
     });
-
-    Clickcash.promo.get({
-        ids: [1,2,3]
-    }, function (err, data) {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log(data);
-        }
-    });
+     * */
 }
