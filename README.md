@@ -22,7 +22,7 @@ Once the script has been added to your web page(s), full page responsive ads wil
 
 ### Advanced options
 
-To disable the automatic script functionality and enable advanced options, pass pmode=advanced to the script.
+The API can be used to automatically pull promos from our expansive library using the syntax below. Use our API Promo Manager (http://www.clickcash.com/ifpage.dll?t=ALT\ClickCash\New\PromoTools\API\generator.htm)
 
 #### Retrieve specifiy promo By ID
 ```html
