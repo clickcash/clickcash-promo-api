@@ -43,6 +43,11 @@ The API can be used to automatically pull promos from our expansive library usin
 <div data-clickcash="tag=blonde&tag=160x600"></div>
 ```
 
+#### Custom ART value (note that ART values are used for tracking performance in reports)
+```html
+<div data-clickcash="tag=blonde&tag=160x600" data-clickcash-art="sidebar-blonde-160x600"></div>
+```
+
 ### Standalone Node JS
 
 ```js
