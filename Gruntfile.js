@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                             }
                     },
                     'files': {
-                    'examples/browser/index.html': ['lib/browser/example-templates/index.html.tpl'],
+                    'examples/browser/examples.html': ['lib/common/templates/examples.html.tpl'],
                     'README.md': ['lib/common/templates/README.md.tpl'],
                     }
                 }
