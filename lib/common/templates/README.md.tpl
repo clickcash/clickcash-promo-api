@@ -1,4 +1,4 @@
-# clickash-promo-api
+﻿# clickash-promo-api
 
 ![NPM version](https://badge.fury.io/js/clickcash-promo-api.svg)
 
@@ -14,7 +14,7 @@ We recommend serving it right from our our server.
 Example:
 
 ```html
-	<script type="text/javascript" id="clickcash-promo-api" src="https://images.ifriends.net/if_v2/clickcashpromoapi/0.0.7/clickcash-promo-api.min.js?pccacct=YOUR_ACCOUNT_CODE_HERE&pmode=auto"></script>
+	<script type="text/javascript" id="clickcash-promo-api" src="https://images.ifriends.net/if_v2/clickcashpromoapi/<%- version %>/clickcash-promo-api.min.js?pccacct=YOUR_ACCOUNT_CODE_HERE&pmode=auto"></script>
 </body>
 ```
 

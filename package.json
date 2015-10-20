@@ -1,20 +1,20 @@
 {
   "name": "clickcash-promo-api",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "clickcash-promo-api",
   "main": "index.js",
-  "dependencies": {
-    "json-http": "^1.0.1",
-    "querystring": "^0.2.0",
-    "underscore": "^1.8.3"
+  "dependencies": {    
+    "querystring": "^0.2.0"
   },
   "devDependencies": {
     "aliasify": "^1.7.2",
     "browserify": "^9.0.3",
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.6.0",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-jshint": "^0.11.1",
     "grunt-contrib-uglify": "^0.8.0",
+    "grunt-template": "^0.2.3",
     "http-server": "^0.8.0"
   },
   "browserify": {
@@ -24,7 +24,7 @@
   },
   "aliasify": {
     "aliases": {
-      "json-http": "./lib/browser/client/json-http.js"
+      "json-http": "./lib/browser/client/jsonp-http.js"
     }
   },
   "repository": {

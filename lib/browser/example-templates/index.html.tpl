@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>clickcash-promo-api</title>
+    <title><%- title %></title>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
 <div data-clickcash="tag=blonde&tag=160x600" data-clickcash-art="sidebar-blonde-160x600"></div>
 
    
-    <script type="text/javascript" id="clickcash-promo-api" src="../../dist/clickcashpromoapi/0.0.7/clickcash-promo-api.js?pccacct=YOUR_ACCOUNT_CODE_HERE"></script>
-    <!--<script type="text/javascript" id="clickcash-promo-api" src="https://images.ifriends.net/if_v2/clickcashpromoapi/0.0.7/clickcash-promo-api.min.js?pccacct=YOUR_ACCOUNT_CODE_HERE&pmode=auto"></script>-->
+    <script type="text/javascript" id="clickcash-promo-api" src="../../dist/clickcashpromoapi/<%- version %>/clickcash-promo-api.js?pccacct=YOUR_ACCOUNT_CODE_HERE"></script>
+    <!--<script type="text/javascript" id="clickcash-promo-api" src="https://images.ifriends.net/if_v2/clickcashpromoapi/<%- version %>/clickcash-promo-api.min.js?pccacct=YOUR_ACCOUNT_CODE_HERE&pmode=auto"></script>-->
 </body>
 </html>
