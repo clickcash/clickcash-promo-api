@@ -1,8 +1,5 @@
 ﻿# clickash-promo-api
 
-[![npm version](https://badge.fury.io/js/clickcash-promo-api.svg)](https://badge.fury.io/js/clickcash-promo-api)
-
-
 ## How to use
 
 ### For the web
