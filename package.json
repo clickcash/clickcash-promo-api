@@ -1,9 +1,10 @@
 {
   "name": "clickcash-promo-api",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "clickcash-promo-api",
   "main": "index.js",
-  "dependencies": {    
+  "dependencies": {
+    "jsonp-client": "^1.0.1",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
