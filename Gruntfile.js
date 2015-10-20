@@ -54,7 +54,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-template');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  // Default task(s).
+  // Default task(s)
   grunt.registerTask('default', ['clean', 'browserify', 'uglify', 'jshint','template']);
 
 };
