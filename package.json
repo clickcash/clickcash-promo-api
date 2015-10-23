@@ -1,6 +1,6 @@
 {
   "name": "clickcash-promo-api",
-  "version": "0.0.8",
+  "version": "0.0.81",
   "description": "clickcash-promo-api",
   "main": "index.js",
   "dependencies": {
@@ -17,16 +17,6 @@
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-template": "^0.2.3",
     "http-server": "^0.8.0"
-  },
-  "browserify": {
-    "transform": [
-      "aliasify"
-    ]
-  },
-  "aliasify": {
-    "aliases": {
-      "json-http": "./lib/browser/client/jsonp-http.js"
-    }
   },
   "repository": {
     "type": "git",

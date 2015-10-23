@@ -1,13 +1,15 @@
 ﻿module.exports.get = require('./lib/common/get');
 if (typeof (window) !== 'undefined') {
-    module.exports = require('./lib/browser/render');
-   // module.exports.onData = function () { };
-    if (document.addEventListener) {
-        document.addEventListener("DOMContentLoaded", function () {
+    if (typeof (Clickcash.promo) === 'undefined') {
+        module.exports = require('./lib/browser/render');
+        // module.exports.onData = function () { };
+        if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", function () {
+                module.exports.render();
+            }, false);
+        } else {
             module.exports.render();
-        }, false);
-    } else {
-        module.exports.render();
+        }
     }
 } else {    
     module.exports.get({
