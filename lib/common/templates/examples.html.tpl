@@ -6,7 +6,7 @@
     <title><%- title %></title>
 </head>
 <body>
-
+<!--
 
 <h1>Retrieve specific promo By ID</h1>
 <pre>
@@ -25,7 +25,8 @@
 &lt;div data-clickcash="tag=blonde&tag=160x600" data-clickcash-art="sidebar-blonde-160x600"&gt;&lt;/div&gt;
 </pre>
 <div data-clickcash="tag=blonde&tag=160x600" data-clickcash-art="sidebar-blonde-160x600"></div>
-
+-->
+<div data-clickcash="id=9397" data-clickcash-options="{'frequency-cap':'1/24'}"></div>
    
     <script type="text/javascript" src="../../dist/clickcashpromoapi/<%- version %>/clickcash-promo-api.js?pccacct=YOUR_ACCOUNT_CODE_HERE"></script>
     <!--<script type="text/javascript" id="clickcash-promo-api" src="https://images.ifriends.net/if_v2/clickcashpromoapi/<%- version %>/clickcash-promo-api.min.js?pccacct=YOUR_ACCOUNT_CODE_HERE&pmode=auto"></script>-->
